@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="492.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxml.FXMLDocumentController">
+    <children>
+        <Button fx:id="avanti" layoutX="32.0" layoutY="377.0" onAction="#avanti" onDragDetected="#avanti" onDragDone="#avanti" onDragDropped="#avanti" onDragEntered="#avanti" onDragExited="#avanti" onDragOver="#avanti" onMouseDragEntered="#avanti" onMouseDragExited="#avanti" onMouseDragOver="#avanti" onMouseDragReleased="#avanti" text="--&gt;" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Accordion />
+      <HBox layoutX="44.0" layoutY="196.0" prefHeight="100.0" prefWidth="200.0" snapToPixel="false" AnchorPane.bottomAnchor="196.0" AnchorPane.leftAnchor="44.0" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="196.0">
+         <children>
+            <StackPane prefHeight="76.0" prefWidth="75.0">
+               <children>
+                  <Rectangle fx:id="r1" arcHeight="5.0" arcWidth="5.0" fill="#fc0000" height="77.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+                  <Label prefHeight="0.0" prefWidth="0.0" text="1" />
+               </children>
+            </StackPane>
+            <StackPane prefHeight="76.0" prefWidth="75.0">
+               <children>
+                  <Rectangle fx:id="r2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="77.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+                  <Label text="2" textFill="#030303" />
+               </children>
+            </StackPane>
+            <StackPane prefHeight="76.0" prefWidth="75.0">
+               <children>
+                  <Rectangle fx:id="r3" arcHeight="5.0" arcWidth="5.0" fill="#f5f3f3" height="77.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+                  <Label text="3" />
+               </children>
+            </StackPane>
+            <StackPane prefHeight="76.0" prefWidth="75.0">
+               <children>
+                  <Label text="4" />
+                  <Rectangle fx:id="r4" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="77.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+               </children>
+            </StackPane>
+            <StackPane prefHeight="76.0" prefWidth="75.0">
+               <children>
+                  <Label text="5" />
+                  <Rectangle fx:id="r5" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="77.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+               </children>
+            </StackPane>
+            <StackPane prefHeight="76.0" prefWidth="75.0">
+               <children>
+                  <Label text="6" />
+                  <Rectangle fx:id="r6" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="77.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+               </children>
+            </StackPane>
+            <StackPane prefHeight="76.0" prefWidth="75.0">
+               <children>
+                  <Label text="7" />
+                  <Rectangle fx:id="r7" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="77.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+               </children>
+            </StackPane>
+         </children>
+      </HBox>
+      <Button fx:id="indietro" layoutX="551.0" layoutY="377.0" onAction="#indietro" onDragDone="#indietro" onDragDropped="#indietro" onDragEntered="#indietro" onDragExited="#indietro" onDragOver="#indietro" onMouseDragEntered="#indietro" onMouseDragExited="#indietro" onMouseDragOver="#indietro" onMouseDragReleased="#indietro" text="&lt;--" />
+    </children>
+</AnchorPane>
